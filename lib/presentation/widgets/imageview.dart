@@ -26,15 +26,15 @@ class ImageView extends StatelessWidget {
               height: MediaQuery.of(context).size.height,
               width: MediaQuery.of(context).size.width,
               child: InteractiveViewer(
-              maxScale: 6,
-              minScale: 0.1,
-              child: type == ImageType.asset
-                  ? Image.asset(image)
-                  : type == ImageType.network
-                      ? Image.network(image)
-                      : type == ImageType.file
-                          ? Image.file(File(image))
-                          : SizedBox()),
+                  maxScale: 6,
+                  minScale: 0.1,
+                  child: type == ImageType.asset
+                      ? Image.asset(image)
+                      : type == ImageType.network
+                          ? Image.network(image)
+                          : type == ImageType.file
+                              ? Image.file(File(image))
+                              : SizedBox()),
             )));
   }
 }
