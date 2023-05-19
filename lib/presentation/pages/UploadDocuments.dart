@@ -67,7 +67,9 @@ class UploadDocuments extends StatelessWidget {
                       height: 50,
                       width: MediaQuery.of(context).size.width,
                       child: ElevatedButton(
-                          onPressed: () {}, child: Text("Next"))),
+                          onPressed: () {
+                            
+                          }, child: Text("Next"))),
                 ),
               ],
             ),

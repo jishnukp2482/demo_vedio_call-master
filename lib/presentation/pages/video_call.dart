@@ -1,10 +1,12 @@
 import 'package:agora_rtc_engine/agora_rtc_engine.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:videocallingappdemo/utils/settings.dart';
+import 'package:demo_vedio_call/presentation/widgets/settings.dart';
 import 'package:wakelock/wakelock.dart';
 
-import 'call_controller.dart';
+import 'package:demo_vedio_call/presentation/manager/call_controller.dart';
+
+
 
 class VideoCall extends StatefulWidget {
   @override
@@ -12,7 +14,7 @@ class VideoCall extends StatefulWidget {
 }
 
 class _VideoCallState extends State<VideoCall> {
-  final callCon = Get.put(CallController());
+  final callCon = Get.find<CallController>();
 
   @override
   void initState() {

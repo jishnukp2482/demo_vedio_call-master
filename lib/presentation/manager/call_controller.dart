@@ -1,7 +1,7 @@
 import 'package:agora_rtc_engine/agora_rtc_engine.dart';
 import 'package:get/get.dart';
-import 'package:videocallingappdemo/page/index.dart';
-import 'package:videocallingappdemo/utils/settings.dart';
+import 'package:demo_vedio_call/presentation/pages/index.dart';
+import 'package:demo_vedio_call/presentation/widgets/settings.dart';
 import 'package:wakelock/wakelock.dart';
 
 class CallController extends GetxController {

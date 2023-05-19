@@ -5,4 +5,7 @@ class AppPages {
   static const uploadDocuments = '/uploaddocuments';
   static const documentView = '/DocumentView';
   static const imageview = '/imageview';
+  static const index = '/index';
+  static const videocall = '/videocall';
+
 }

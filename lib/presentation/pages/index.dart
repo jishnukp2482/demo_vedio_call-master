@@ -4,9 +4,8 @@ import 'dart:async';
 import 'package:agora_rtc_engine/agora_rtc_engine.dart';
 import 'package:flutter/material.dart';
 import 'package:permission_handler/permission_handler.dart';
-import 'package:videocallingappdemo/page/video_call.dart';
+import 'package:demo_vedio_call/presentation/pages/video_call.dart';
 
-import './call.dart';
 
 class IndexPage extends StatefulWidget {
   @override
